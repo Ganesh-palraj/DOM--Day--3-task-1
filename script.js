@@ -2,8 +2,8 @@ let count = 1;
 function validate(){
   let table = document.getElementById('datastored')
   let row = table.insertRow(count)
-    const fname = document.getElementById("fname").value
-    const lname = document.querySelector("#lname").value
+    const fname = document.getElementById("first-name").value
+    const lname = document.querySelector("#last-name").value
     const address = document.querySelector("#address").value
     const pincode = document.querySelector("#pincode").value
     const genderselect = document.querySelector("#gender-select").value
@@ -59,6 +59,6 @@ function validate(){
         alert(" fill all the details"); return false;
     }
     
-   var form = document.getElementById("forms")
+   var form = document.getElementById("form")
    form.reset();
 }
