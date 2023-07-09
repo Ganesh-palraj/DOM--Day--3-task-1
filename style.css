@@ -2,10 +2,13 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
 }
+.fname{
+    color: black;
+}
 .container{
     padding: 25px;
 }
-.inputfiled{
+.inputfiled , #form{
     padding-top: 50px;
     background-color: rgb(129, 237, 249);
 }
